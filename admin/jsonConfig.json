@@ -1,0 +1,21 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"open": {
+			"type": "checkbox",
+			"label": "open shutter",
+			"newLine": true
+		},
+		"close": {
+			"type": "checkbox",
+			"label": "close shutter",
+			"newLine": true
+		},
+		"stop": {
+			"type": "checkbox",
+			"label": "stop shutter",
+			"newLine": true
+		}
+	}
+}

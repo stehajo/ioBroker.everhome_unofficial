@@ -1,0 +1,84 @@
+{
+	"common": {
+		"name": "everhome_unofficial",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "EVRHOM",
+		"titleLang": {
+			"en": "EVRHOM",
+			"de": "EVRHOM",
+			"ru": "EVRHOM",
+			"pt": "EVRHOM",
+			"nl": "EVRHOM",
+			"fr": "EVRHOM",
+			"it": "EVRHOM",
+			"es": "EVRHOM",
+			"pl": "EVRHOM",
+			"zh-cn": "EVRHOM"
+		},
+		"desc": {
+			"en": "Adapter to connect to a Everhome device using their API",
+			"de": "Adapter to connect to a Everhome device using their API",
+			"ru": "Adapter to connect to a Everhome device using their API",
+			"pt": "Adapter to connect to a Everhome device using their API",
+			"nl": "Adapter to connect to a Everhome device using their API",
+			"fr": "Adapter to connect to a Everhome device using their API",
+			"it": "Adapter to connect to a Everhome device using their API",
+			"es": "Adapter to connect to a Everhome device using their API",
+			"pl": "Adapter to connect to a Everhome device using their API",
+			"zh-cn": "Adapter to connect to a Everhome device using their API"
+		},
+		"authors": [
+			"stehajo <stephan@lewering.de>"
+		],
+		"keywords": [
+			"everhome"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "everhome_unofficial.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/stehajo/ioBroker.everhome_unofficial/main/admin/everhome_unofficial.png",
+		"readme": "https://github.com/stehajo/ioBroker.everhome_unofficial/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "iot-systems",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.13"
+			}
+		]
+	},
+	"native": {
+		"open": false,
+		"close": false,
+		"stop": false
+	},
+	"objects": [],
+	"instanceObjects": []
+}
